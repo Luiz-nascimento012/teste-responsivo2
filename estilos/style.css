@@ -34,18 +34,33 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header nav {
+nav.itens {
+    display: none;
+}
+
+nav.itens.ativo {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+header span.material-icons {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    background-color: #273E47;
+    padding: 2px;
+}
+
+header span.material-icons:hover {
+    cursor: pointer;
+    background-color: #314d58;
+    transition: 0.2s ease;
 }
 
 header a.link {
     background-color: #273E47;
-    width: 80%;
-    border-radius: 10px;
+    width: 100%;
     padding: 10px;
-    margin-bottom: 5px;
     border: 1px solid #395763;
     color: white;
     text-decoration: none;

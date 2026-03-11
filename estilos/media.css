@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 478px) {
+@media screen and (min-width: 478px) and (max-width: 768px) {
     
     span.material-icons {
         display: none;
@@ -13,14 +13,27 @@
     }
 
     header h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
-    header nav {
+    header nav.itens {
+        display: flex;
+
         flex-flow: row nowrap;
     }
+
     header a.link {
-        width: 30%;
-        margin-left: 5px;
+        /*background-color: #273E47;
+        width: 80%;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        border: 1px solid #395763;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font: normal bold 1.1em Arial, Helvetica, sans-serif;*/
+        text-align: justify;
+        margin: 10px;
     }
 }
