@@ -68,6 +68,11 @@ header a.link {
     font: normal bold 1.1em Arial, Helvetica, sans-serif;
 }
 
+header a.link:hover {
+    background-color: #314d58;
+    transition: 0.2s ease;
+}
+
 article {
     background-color: white;
     width: 80%;
